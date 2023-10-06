@@ -1,0 +1,39 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+/* DigitalClock.css */
+.digital-clock-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(39, 39, 39);
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    color: white;
+    font-family: 'Dot Font', sans-serif; /* Import and specify your custom font here */
+    margin-bottom: 10px;
+  }
+  
+
+  .digital-clock-text {
+    color: rgb(134, 134, 134);
+    font-size: 100px;
+    font-family: 'Bebas Neue', sans-serif; /* Import and specify your custom font here */
+    margin: 0;
+    text-align: center;
+  }
+  
